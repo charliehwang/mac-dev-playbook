@@ -77,6 +77,7 @@ homebrew_installed_packages:
   - wget
   # - wrk
   - jump
+  - zsh-autosuggestions
 
 homebrew_taps:
   - homebrew/core
@@ -133,16 +134,16 @@ mas_installed_apps:
 mas_email: ""
 mas_password: ""
 
-# User configuration
-users:
-  - username: "{{general.user_name}}"
-
 # Important: oh-my-zsh is installed per user so you need to specify the users to install it for.
 oh_my_zsh_install: yes
-oh_my_zsh_theme: agnoster
-oh_my_zsh_plugins:
-  - git
-  - zsh-autosuggestions
+users:
+  - username: "{{general.user_name}}"
+    oh_my_zsh:
+      theme: agnoster
+      plugins:
+        - git
+        - zsh-autosuggestions
+
 
 visual_studio_code_extensions:
   - vscodevim.vim
@@ -178,10 +179,6 @@ pip_packages: []
 # tasks/iterm2.yml settings.
 iterm2_enable_automatic_updates: true
 iterm2_preference_folder: "{{ playbook_dir }}/../files"
-
-# tasks/vs-code-extensions.yml
-visual_studio_code_extensions:
-  - vscodevim.vim
 
 # tasks/default-applications.yml
 default_applications:
