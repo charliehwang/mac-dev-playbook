@@ -104,6 +104,7 @@ homebrew_cask_apps:
   - iterm2
   - iina
   - vlc
+  - itsycal
   # - logitech-options
   - encryptme
     # Quick Look plugins
@@ -134,7 +135,10 @@ mas_installed_apps:
   - { name: MSRemoteDesktop, id: 715768417 }
   - { name: Screens4, id: 1224268771 }
   - { name: JumpDesktop, id: 524141863 }
-  # - { name: Xcode, id: 497799835 }
+  - { name: DasiyDisk, id: 411643860 }
+  - { name: Amphetamine, id: 937984704 }
+  - { name: BetterSnapTool, id: 417375580 }
+  - { name: Xcode, id: 497799835 }
 mas_email: ""
 mas_password: ""
 
