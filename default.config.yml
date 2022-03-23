@@ -130,7 +130,7 @@ mas_installed_apps:
   - { name: Screens4, id: 1224268771 }
   - { name: JumpDesktop, id: 524141863 }
   # - { name: Xcode, id: 497799835 }
-mas_email: "charliehwang@mac.com"
+mas_email: ""
 mas_password: ""
 
 # User configuration
