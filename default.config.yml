@@ -105,6 +105,7 @@ homebrew_cask_apps:
   - iina
   - vlc
   - itsycal
+  - carbon-copy-cloner
   # - logitech-options
   - encryptme
     # Quick Look plugins
