@@ -12,6 +12,13 @@
   become: yes
   become_user: "{{general.user_name}}"
 
+- name: Ensure .tmux directory exists.
+  file:
+    path: "{{general.local_home}}/.tmux"
+    state: directory
+  become: yes
+  become_user: "{{general.user_name}}"
+
 # - name: deploy .zshrc
 #   become: yes
 #   become_user: "{{general.user_name}}"
