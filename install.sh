@@ -4,8 +4,8 @@ set -o errexit
 set -o errtrace
 set -o nounset
 
-REPO="https://github.com/KingLoui/ansible-macos-playbook.git"
-TARGET_DIR="$HOME/Synced/mh_project_personal/ansible-macos-playbook"
+REPO="https://github.com/charliehwang/mac-dev-playbook.git"
+TARGET_DIR="$HOME/projects/mac-dev-playbook"
 
 # Ask for sudo password upfront if needed
 if ! sudo -n true 2>/dev/null; then
