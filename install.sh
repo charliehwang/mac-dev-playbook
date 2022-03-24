@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# curl --fail https://raw.githubusercontent.com/charliehwang/mac-dev-playbook/master/install.sh | bash
+
 set -o errexit
 set -o errtrace
 set -o nounset
