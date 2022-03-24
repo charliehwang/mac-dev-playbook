@@ -5,12 +5,12 @@
 - name: Install zsh-autosuggestions
   git: repo=https://github.com/zsh-users/zsh-autosuggestions dest="{{general.local_home}}/.oh-my-zsh/custom/plugins/zsh-autosuggestions"
 
-# - name: Ensure conf directory exists.
-#   file:
-#     path: "{{general.local_home}}/conf"
-#     state: directory
-#   become: yes
-#   become_user: "{{general.user_name}}"
+- name: Ensure .conf directory exists.
+  file:
+    path: "{{general.local_home}}/.conf"
+    state: directory
+  become: yes
+  become_user: "{{general.user_name}}"
 
 # - name: deploy .zshrc
 #   become: yes
