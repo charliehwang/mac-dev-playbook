@@ -60,6 +60,9 @@
     - import_tasks: tasks/oh-my-zsh.yml
       tags: ['oh-my-zsh']
 
+    - import_tasks: tasks/tmux.yml
+      tags: ['tmux']
+
     # - import_tasks: tasks/vs-code-extensions.yml
     #   tags: ['vs-code']
 

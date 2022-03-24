@@ -1,0 +1,6 @@
+---
+- name: Plugin continuimm
+  git: repo=https://github.com/tmux-plugins/tmux-continuum dest="{{general.local_home}}/.tmux/plugins/tmux-continuum"
+
+- name: Plugin resurrect
+  git: repo=https://github.com/tmux-plugins/tmux-resurrect dest="{{general.local_home}}/.tmux/plugins/tmux-resurrect"
