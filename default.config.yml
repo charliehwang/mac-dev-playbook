@@ -111,6 +111,7 @@ homebrew_cask_apps:
   - carbon-copy-cloner
   # - logitech-options
   - encryptme
+  - setapp
     # Quick Look plugins
   - qlcolorcode            # syntax highlighting
   - qlstephen              # files without file extensions
