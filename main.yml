@@ -36,9 +36,9 @@
       when: configure_vs_code
       tags: ['vs-code']
 
-    - role: geerlingguy.dotfiles
-      when: configure_dotfiles
-      tags: ['dotfiles']
+    # - role: geerlingguy.dotfiles
+    #   when: configure_dotfiles
+    #   tags: ['dotfiles']
 
 
   tasks:
@@ -59,6 +59,11 @@
 
     - import_tasks: tasks/oh-my-zsh.yml
       tags: ['oh-my-zsh']
+
+    - include_role:
+      name: geerlingguy.dotfiles
+      when: configure_dotfiles
+      tags: ['dotfiles']
 
     - import_tasks: tasks/tmux.yml
       tags: ['tmux']
