@@ -99,6 +99,7 @@ homebrew_cask_apps:
   - notion
   - 1password
   - docker
+  - brave-browser
   - microsoft-edge
   - firefox
   - google-chrome
